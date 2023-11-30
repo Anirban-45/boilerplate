@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&display=swap");
+header {
+  padding: 24px 60px;
+}
+header .header-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: space-between;
+  gap: 0;
+  font-family: "Urbanist", sans-serif;
+}
+header ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+header ul a {
+  text-decoration: none;
+}

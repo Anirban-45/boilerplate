@@ -1,0 +1,10 @@
+@import "../../styles/_variables.scss";
+@import "../../styles/_mixins.scss";
+
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: $main-font-family;
+}

@@ -1,0 +1,22 @@
+@import "../../../styles/_variables.scss";
+@import "../../../styles/_mixins.scss";
+
+header {
+    padding: 24px 60px;
+
+    .header-items{
+        @include flex-container(row, space-between, space-between, 0);
+        font-family: $main-font-family;
+    }
+
+    
+    ul{
+        display: flex;
+        list-style: none;
+        gap: 20px;
+
+        a{
+            text-decoration: none;
+        }
+    }
+}

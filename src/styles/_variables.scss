@@ -1,0 +1,40 @@
+// _variables.scss
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&display=swap');
+
+
+// Colors
+$primary-color: #eebe87;
+$secondary-color: #a4c4a1;
+$accent-color: #374259;
+$background-color: #fafffe;
+$success-color: #28a745;
+$error-color: #dc3545;
+
+// Text Colors
+$primary-text-color: rgb(27, 29, 34);
+$secondary-text-color: rgb(215, 143, 19);
+
+// Fonts
+$main-font-family: 'Urbanist', sans-serif;
+$heading-font-family: 'Roboto', sans-serif;
+
+// Spacing
+$base-spacing: 8px;
+$small-spacing: $base-spacing * 0.5;
+$medium-spacing: $base-spacing;
+$large-spacing: $base-spacing * 2;
+
+// Borders
+$border-radius: 4px;
+$border-width: 1px;
+$border-style: solid;
+
+// Breakpoints
+$mobile-screen: 375px;
+$tablet-screen: 768px;
+$laptop-screen: 1024px;
+$pc-screen: 1440px;
+
+// Box Shadows
+$box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
